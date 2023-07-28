@@ -1,6 +1,6 @@
 import { Layout } from '@/components/Layout';
 import Head from 'next/head';
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePic from "../../public/images/profile/developer-pic-1.gif";
 import Image from 'next/image';
 import { AnimatedText } from '@/components/AnimatedText';
 import Link from 'next/link';
@@ -19,8 +19,8 @@ export default function Home() {
       <main className=" flex items-center text-dark  w-full  min-h-screen ">
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
-            <div className='w-1/2 ml-[40px]'> 
-           <Image src={profilePic} alt='Vibhu' className= " w-full h-auto"  />
+            <div className='w-1/2 ml-[40px] '> 
+           <Image src={profilePic} alt='Vibhu' className= " w-[80%] h-auto"  />
 
             </div>
             <div className='w-1/2 flex flex-col items-center self-center mr-[40px]'>
