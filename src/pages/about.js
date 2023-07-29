@@ -7,6 +7,7 @@ import profilePic from "../../public/images/profile/developer-pic-2.png";
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import { Skills } from '@/components/Skills'
 import { Experience } from '@/components/Experience'
+import { Education } from '@/components/Education'
 
 const AnimateNumbers = ({value}) =>{
   const ref = useRef(null);
@@ -45,7 +46,7 @@ export const about = () => {
         <meta name='description' content='any thing that you want to write '/>
       </title>
       
-    </Head>\
+    </Head>
 
     <main className='flex w-full flex-col items-center justify-center '>
        <Layout className='pt-16 pb-16'>
@@ -113,6 +114,8 @@ other digital product, I bring my commitment to design excellence and user-cente
        
       
        <Skills/>
+       
+       <Education/>
        <Experience/>
        
        </Layout>
