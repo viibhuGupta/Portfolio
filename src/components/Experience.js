@@ -18,7 +18,7 @@ const Details = ({position , company , companyLink , time , address ,work}) =>{
     transition={{duration:0.5 , type:"spring"}}
 
     className="border-2 solid bg-dark/85  rounded-lg  
-    hover:bg-dark/75  hover:text-light p-6
+    hover:bg-dark/75  hover:text-light  p-6 hover:cursor-pointer shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] 
     "
     >
       <h3  className=" capotalize font-bold text-2xl   ">{position}  &nbsp; <a href={companyLink} 
@@ -63,70 +63,19 @@ export const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4   ">
 
-        <Details 
         
-        position={"Software Engineer"}
-        company={"Google"}
-        companyLink={"https://www.google.com/"}
-        time={"2022-Present"}
-        address={"Mountain View, CA"}
-        work={"Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and  developing new tools for data analysis and visualization."}
-
-        />
 
 
 <Details 
         
-        position={"Software Engineer"}
-        company={"Google"}
+        position={"Now i am Fresher"}
+        company={"ApplyIng For Job"}
         companyLink={"https://www.google.com/"}
         time={"2022-Present"}
-        address={"Mountain View, CA"}
-        work={"Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and  developing new tools for data analysis and visualization."}
+        address={" Remote Job , Developer"}
+        work={"Worked I Can Do : Frontent Developement , Basics Of Backend ,Problem Solveing ,  DSA.  "}
 
         />
-
-
-
-<Details 
-        
-        position={"Software Engineer"}
-        company={"Google"}
-        companyLink={"https://www.google.com/"}
-        time={"2022-Present"}
-        address={"Mountain View, CA"}
-        work={"Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and  developing new tools for data analysis and visualization."}
-
-        />
-
-
-
-
-<Details 
-        
-        position={"Software Engineer"}
-        company={"Google"}
-        companyLink={"https://www.google.com/"}
-        time={"2022-Present"}
-        address={"Mountain View, CA"}
-        work={"Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and  developing new tools for data analysis and visualization."}
-
-        />
-
-
-
-<Details 
-        
-        position={"Software Engineer"}
-        company={"Google"}
-        companyLink={"https://www.google.com/"}
-        time={"2022-Present"}
-        address={"Mountain View, CA"}
-        work={"Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and  developing new tools for data analysis and visualization."}
-
-        />
-
-
 
 
         </ul>

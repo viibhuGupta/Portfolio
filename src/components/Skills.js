@@ -26,7 +26,7 @@ export const Skills = () => {
       <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer  absolute  '
       whileHover={{scale:1.05}} 
       >
-        Web
+        Technical Skills
       </motion.div>
 
       <Skill name="HTML"  x="-20vw" y="2vw" />
@@ -38,6 +38,9 @@ export const Skills = () => {
       <Skill name="FireBase"  x="-25vw" y="18vw"   />
       <Skill name="Web Design"  x="32vw" y="-5vw"   />
       <Skill name="Tailwind CSS"  x="0vw" y="-20vw"   />
+      <Skill name="JAVA"  x="-34vw" y="-8vw"   />
+      <Skill name="C"  x="1vw" y="18vw"   />
+      <Skill name="UI & UX"  x="18vw" y="18vw"   />
       <Skill name="Linux"  x="18vw" y="18vw"   />
 
     </div>

@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import { LiIcon } from "./LiIcon";
 
+import { fadeIn, textVariant } from "@/utils/motion";
+
 
 const Details = ({ type , time , place , info }) =>{
 
@@ -16,15 +18,21 @@ const Details = ({ type , time , place , info }) =>{
     initial={{y:50}}
     whileInView={{y:0}}
     transition={{duration:0.5 , type:"spring"}}
+    variants={fadeIn}
 
     className="border-2 solid bg-dark/85  rounded-lg  
-    hover:bg-dark/75  hover:text-light  p-6 
+    hover:bg-dark/75  hover:text-light  p-6 hover:cursor-pointer shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] 
     "
+
+    // className="  text-black bg-white   rounded"
+
+    
+
     >
       <h3  className=" capotalize font-bold text-2xl   ">{type} </h3>
       
       <span className=" capotalize font-medium text-dark/75   ">
-             {time} || {place}
+             {time} || <a className="text-primary font-bold  "> {place} </a>
       </span>
       <p  className="font-medium w-full ">
           {info}
