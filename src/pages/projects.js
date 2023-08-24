@@ -90,7 +90,7 @@ export const projects = () => {
           </div>
 
           <div className='col-span-6 '>
-             Project-4
+             Project-4 6
           </div>
 
 
